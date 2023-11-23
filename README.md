@@ -12,6 +12,8 @@ Just run:
 
 ```bash
 #sudo su
+sudo apt update && sudo apt upgrade -y
+sudo apt install git
 git clone https://github.com/Theodikes/ipv6-proxy-server.git && cd ipv6-proxy-server
 chmod +x ipv6-proxy-server.sh
 ./ipv6-proxy-server.sh -s 64 -c 100 -u username -p password -t http -r 10
